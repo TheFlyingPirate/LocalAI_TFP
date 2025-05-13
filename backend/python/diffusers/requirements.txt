@@ -3,3 +3,4 @@ grpcio==1.72.0
 pillow
 protobuf
 certifi
+gguf
