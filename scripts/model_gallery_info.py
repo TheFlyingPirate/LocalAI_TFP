@@ -53,7 +53,7 @@ def format_description(description):
 if __name__ == "__main__":
     # Get repoid from argv[0]
     repo_id = sys.argv[1]
-    token = ""  # Replace with your Hugging Face token if needed
+    token = "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"  # Replace with your Hugging Face token if needed
 
     fs = HfFileSystem()
     all_files = fs.ls(repo_id, detail=False)
